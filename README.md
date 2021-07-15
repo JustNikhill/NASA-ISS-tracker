@@ -1,4 +1,4 @@
-![image](https://github.com/JustNikhill/JustNikhill/blob/main/Screenshot(656)_LI.jpg?raw=true)
+![image](https://github.com/JustNikhill/JustNikhill/blob/main/ScreenshotISS.jpg?raw=true)
 
 # NASA-ISS-tracker
 Track International space station with python 
