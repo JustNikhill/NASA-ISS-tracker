@@ -5,7 +5,7 @@ import time
 import webbrowser
 import geocoder
 
-url = "http://api.open-notify.org/astros.json"
+url = "http://api.open-notify.org/astros.json"  # current astronauts on space station API
 response = urllib.request.urlopen(url)
 result = json.loads(response.read())
 file = open("iss.txt", "w")
@@ -20,12 +20,12 @@ file.write("\nYour current lat / long is: " + str(g.latlng))
 file.close()
 webbrowser.open("iss.txt")
 
-# Setup the world map in turtle module
+# world map gif in turtle 
 screen = turtle.Screen()
 screen.setup(1280, 720)
 screen.setworldcoordinates(-180, -90, 180, 90)
 
-# load the world map image
+# load world map image
 screen.bgpic("Map.gif")
 screen.register_shape("ISS GIF2.gif")
 iss = turtle.Turtle()
