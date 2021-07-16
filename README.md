@@ -3,5 +3,22 @@
 # NASA-ISS-tracker
 Track International space station with python 
 
-## No need to run any script just clone my repo and type (python iss.py) in your terminal, that's all!
-###
+## Modules 
+-import json
+-import turtle
+-import urllib.request
+-import time
+-import webbrowser
+-import geocoder
+
+## API links
+- Current astronaut on space station -  http://api.open-notify.org/astros.json
+- current status of the ISS in real-time - http://api.open-notify.org/iss-now.json
+
+## Steps to run this program in your device
+- Clone or download zip file of this repo 
+-  Run `python iss.py`
+## Contact 
+- [LinkedIn](https://www.linkedin.com/in/nikhil-yadav-609435203/) 
+
+
