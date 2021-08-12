@@ -15,7 +15,7 @@ Track International space station with python
 - Current astronaut on space station -  http://api.open-notify.org/astros.json
 - current status of the ISS in real-time - http://api.open-notify.org/iss-now.json
 
-## Gif maker that I used 
+## Gif maker which I used 
 - exgif - https://ezgif.com/maker
 
 ## Steps to run this program in your device
